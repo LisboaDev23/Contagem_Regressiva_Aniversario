@@ -8,19 +8,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
     <header class="hero">
         <div class="container">
-            <h1 class="hero__title">Aniversário do Gabriel Lisboa</h1>
+            <h1 class="hero__title">Aniversário do Gabriel</h1>
             <p class="hero__text">
                 Contagem regressiva para o Aniversário do Gabriel Pereira Lisboa
+                <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Castro Meireles, N 1430 - Mondubim - Fortaleza - CE
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Ajuda de custo: R$ 50,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        15/10/2024
+                    </li>
+                    <a href="#" class="button button--primary">
+                        Participar do Evento
+                    </a>
+                </ul>
+            </div>
         </div>
     </header>
 
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o evento</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam in dignissimos quaerat voluptatum et, temporibus, iure placeat minus distinctio corporis animi facilis optio quis, velit libero. Repellendus aut ratione asperiores.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est magnam laboriosam consectetur ab. Molestias earum necessitatibus nobis. In velit quibusdam autem esse delectus, voluptate illum dicta, accusantium incidunt maiores et.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde incidunt temporibus asperiores dolore vel odit, ab, facilis porro animi dignissimos explicabo, cum corrupti obcaecati numquam expedita sequi alias est ea.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Imagem do WhatsApp de 2024-03-13 à(s) 12.35.39_1d93e78b.jpg" alt="foto-gabriel">
+        </div>
+    </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
